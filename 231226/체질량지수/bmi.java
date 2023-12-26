@@ -9,11 +9,11 @@ public class Main {
         double bmi = kg * 10000 / (cm * cm);
 
         if (bmi > 25) {
-            System.out.printf("%.0f\n", bmi);
-            System.out.println("Obesity");
+            System.out.printf("%.0f", bmi);
+            System.out.println("\nObesity");
         }
         else {
-            System.out.println(bmi);
+            System.out.println("%.0f", bmi);
         }
     }
 }
