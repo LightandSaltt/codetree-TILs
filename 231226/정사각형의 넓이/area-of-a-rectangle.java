@@ -9,7 +9,7 @@ public class Main {
             System.out.println(n * n);
             System.out.println("\ntiny");
         } else {
-            System.out.println(n*n);
+            System.out.println(n * n);
         }
     }
 }
