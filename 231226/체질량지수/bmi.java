@@ -13,7 +13,7 @@ public class Main {
             System.out.println("\nObesity");
         }
         else {
-            System.out.println("%.0f", bmi);
+            System.out.printf("%.0f", bmi);
         }
     }
 }
