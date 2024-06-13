@@ -9,9 +9,9 @@ public class Main {
         int min;
 
         if (a <= b && a <= c) {
-            System.out.println("1 ");
+            System.out.print("1 ");
         } else {
-            System.out.println("0 ");
+            System.out.print("0 ");
         }
         if (a == b && b == c) {
              System.out.println("1 ");
