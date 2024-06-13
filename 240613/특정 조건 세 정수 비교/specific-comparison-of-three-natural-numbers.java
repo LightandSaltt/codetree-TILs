@@ -18,11 +18,11 @@ public class Main {
 
         if (a == c && a == b) {
             System.out.println("1 0");
-        } else if (a == min ){
+        } else if (a == min){
             System.out.println("1 0");
         }
         else {
-            System.out.println("0 0");
+            System.out.println("1 0");
         }
     }
 }
