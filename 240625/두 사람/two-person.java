@@ -10,7 +10,7 @@ public class Main {
         int b = sc.nextInt();
         String b_sex = sc.nextLine();
 
-        if ((a >= 19 || a_sex == "M") || (b >= 19 || b_sex == "M")) {
+        if ((a >= 19 && a_sex == "M") || (b >= 19 && b_sex == "M")) {
             System.out.println("1");
         } else {
             System.out.println("0");
