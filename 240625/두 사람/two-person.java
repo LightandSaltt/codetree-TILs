@@ -3,17 +3,17 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         // 여기에 코드를 작성해주세요.
-        Scanner sc= new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
-        String a_sex = sc.nextLine();
+        String a_sex = sc.next();
 
         int b = sc.nextInt();
-        String b_sex = sc.nextLine();
+        String b_sex = sc.next();
 
         if ((a >= 19 && a_sex.equals("M")) || (b >= 19 && b_sex.equals("M"))) {
-            System.out.println("1");
+            System.out.println(1);
         } else {
-            System.out.println("0");
+            System.out.println(0);
         }
     }
 }
