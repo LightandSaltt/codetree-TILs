@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
-        String sex = sc.next();
+        int sex = sc.nextInt();
 
         if (a == 0) {
             if (sex >= 19) {
