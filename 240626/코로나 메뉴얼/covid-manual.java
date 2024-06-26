@@ -19,16 +19,18 @@ public class Main {
             if (a_t >= 37) {
                 count ++;
             }
-        } else if (b.equals("Y")) {
+        }
+        if (b.equals("Y")) {
             if (b_t >= 37) {
                  count ++;
                 }
-        } else if (c.equals("Y")) {
+        }
+        if (c.equals("Y")) {
             if (c_t >= 37) {
                 count ++;
             }
         }
-        
+
         if (count >= 2) {
                 System.out.println("E");
             } else {
