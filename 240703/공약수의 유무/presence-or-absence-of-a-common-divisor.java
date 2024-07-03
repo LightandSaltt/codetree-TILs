@@ -1,23 +1,20 @@
 import java.util.Scanner;
-
 public class Main {
     public static void main(String[] args) {
-        Scanner sc = sc.nextInt();
-        int a = sc.nextInt();
+        Scanner sc = new Scanner(System.in);
+	    int a = sc.nextInt();
         int b = sc.nextInt();
-        int cnt = 0;
+        boolean satisfied = false;
 
-        for (int i = a; a >= b; i++) {
-            if (i % 1920 == 0 && i % 2880) {
-                cnt++;
+        for(int i=a; i<=b; i++){
+            if(1920%i==0 && 2880%i==0){
+                satisfied = true;
             }
         }
-        if (cnt != 0) {
-            System.out.println(1);
-        } else {
-            System.out.println(0);
-        }
-
-
+        if(satisfied==true){
+                System.out.print("1");
+            }else{
+                System.out.print("0");
+            }
     }
 }
